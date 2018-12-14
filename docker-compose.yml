@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+
+  db:
+    container_name: log_analyses
+    image: library/postgres:latest
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=vagrant
+      - POSTGRES_DB=news
