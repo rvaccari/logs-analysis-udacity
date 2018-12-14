@@ -18,8 +18,8 @@ This is my solution for the Logs Analysis project in Udacity Full Stack Nanodegr
 7. Run analyzer.py
 
 ```
-git clone
-cd log_analyses
+git clone git@github.com:rvaccari/logs-analysis-udacity.git
+cd logs-analysis-udacity
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
